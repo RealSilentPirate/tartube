@@ -1,41 +1,41 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tartube
+# Copyright (C) 2019-2020 A S Lewis
+# This file is distributed under the same license as the Tartube package.
+# FIRST AUTHOR Michal Zukiewicz <michalzukiewicz@gmail.com>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 2.3.008\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-12 12:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Michal Zukiewicz <michalzukiewicz@gmail.com>\n"
+"Language-Team: de_DE <michalzukiewicz@gmail.com>n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .././mainapp.py:298
 msgid "Tiny"
-msgstr ""
+msgstr "Winzig"
 
 #: .././mainapp.py:299
 msgid "Small"
-msgstr ""
+msgstr "Klein"
 
 #: .././mainapp.py:300 .././config.py:3289 .././config.py:3362
 msgid "Medium"
-msgstr ""
+msgstr "Mittel"
 
 #: .././mainapp.py:301
 msgid "Large"
-msgstr ""
+msgstr "Groß"
 
 #: .././mainapp.py:302
 msgid "Enormous"
-msgstr ""
+msgstr "Enorm"
 
 #: .././mainapp.py:908
 msgid ""
@@ -45,267 +45,305 @@ msgid ""
 "conversions, restart Tartube. To stop these messages, disable thumbnail "
 "conversions"
 msgstr ""
+"Fehler beim Konvertieren einer Miniaturansicht von .webp in .jpg. Es werden "
+"keine weiteren Konvertierungen versucht, bis Sie FFmpeg auf Ihrem System "
+"installieren oder (falls FFmpeg bereits installiert ist) den richtigen "
+"FFmpeg-Pfad festgelegt haben. Starten Sie Tartube neu, um weitere "
+"Konvertierungen zu versuchen. Deaktivieren Sie die Konvertierung von "
+"Miniaturansichten, um diese Nachrichten zu stoppen"
 
 #: .././mainapp.py:2571
 msgid ""
 "Tartube can't create the folder in which its configuration file is saved"
 msgstr ""
+"Tartube kann den Ordner, in dem die Konfigurationsdatei gespeichert ist, "
+"nicht erstellen"
 
 #. Load/save has been disabled. Show the error message in a dialogue
 #. window, then shut down
 #: .././mainapp.py:2609
 msgid "Tartube failed to start because:"
-msgstr ""
+msgstr "Tartube konnte nicht gestartet werden, weil:"
 
 #: .././mainapp.py:2617
 msgid "If you don't know how to resolve this error, please contact the authors"
 msgstr ""
+"Wenn Sie nicht wissen, wie Sie diesen Fehler beheben können, bitte wenden Sie "
+"sich an die Autoren"
 
 #: .././mainapp.py:2845
 msgid "Because of an error, file load/save has been disabled"
 msgstr ""
+"Aufgrund eines Fehlers wurde das Laden / Speichern von Dateien deaktiviert"
 
 #: .././mainapp.py:2854
 msgid "Because of the error, file load/save has been disabled"
 msgstr ""
+"Aufgrund des Fehlers wurde das Laden / Speichern von Dateien deaktiviert"
 
 #: .././mainapp.py:2938
 msgid "There is a download operation in progress."
-msgstr ""
+msgstr "Es wird ein Download-Vorgang ausgeführt."
 
 #: .././mainapp.py:2940
 msgid "There is an update operation in progress."
-msgstr ""
+msgstr "Es wird ein Aktualisierungsvorgang ausgeführt."
 
 #: .././mainapp.py:2942
 msgid "There is a refresh operation in progress."
-msgstr ""
+msgstr "Es wird ein Refresh Vorgang ausgeführt."
 
 #: .././mainapp.py:2944
 msgid "There is an info operation in progress."
-msgstr ""
+msgstr "Es wird eine Info-Operation ausgeführt."
 
 #: .././mainapp.py:2946
 msgid "There is a tidy operation in progress."
-msgstr ""
+msgstr "Es wird eine Ordentirung-Operation ausgeführt."
 
 #: .././mainapp.py:2948
 msgid "There is a process operation in progress."
-msgstr ""
+msgstr "Es wird eine Prozess-Operation ausgeführt."
 
 #: .././mainapp.py:2953
 msgid "Are you sure you want to quit Tartube?"
-msgstr ""
+msgstr "Sind Sie sicher, dass Sie Tartube beenden möchten?"
 
 #: .././mainapp.py:3158
 msgid "Failed to load the Tartube config file (failed sanity check)"
 msgstr ""
+"Fehler beim Laden der Tartube-Konfigurationsdatei (fehlgeschlagene Überprüfung"
+" der Integrität)"
 
 #: .././mainapp.py:3181
 msgid "Failed to load the Tartube config file (file is locked)"
-msgstr ""
+msgstr "Fehler beim Laden der Tartube-Konfigurationsdatei (Datei ist gesperrt)"
 
 #: .././mainapp.py:3211
 msgid "Failed to load the Tartube config file (JSON load failure)"
-msgstr ""
+msgstr "Fehler beim Laden der Tartube-Konfigurationsdatei (JSON-Ladefehler)"
 
 #: .././mainapp.py:3229
 msgid "Failed to load the Tartube config file (file is invalid)"
-msgstr ""
+msgstr "Fehler beim Laden der Tartube-Konfigurationsdatei (Datei ist ungültig)"
 
 #: .././mainapp.py:3247
 msgid ""
 "Failed to load the Tartube config file (file cannot be read by this version)"
 msgstr ""
+"Fehler beim Laden der Tartube-Konfigurationsdatei (Datei kann von dieser "
+"Version nicht gelesen werden)"
 
 #: .././mainapp.py:3262
 msgid "Failed to load the Tartube config file (missing file type)"
-msgstr ""
+msgstr "Fehler beim Laden der Tartube-Konfigurationsdatei (fehlender Dateityp)"
 
 #: .././mainapp.py:4115
 msgid "Failed to save the Tartube config file (failed sanity check)"
 msgstr ""
+"Fehler beim Speichern der Tartube-Konfigurationsdatei (fehlgeschlagene "
+"Überprüfung der Integrität)"
 
 #: .././mainapp.py:4423
 msgid "Failed to save the Tartube config file (file is locked)"
 msgstr ""
+"Fehler beim Speichern der Tartube-Konfigurationsdatei (Datei ist gesperrt)"
 
 #: .././mainapp.py:4425 .././mainapp.py:4465 .././mainapp.py:5747
 #: .././mainapp.py:5803 .././mainapp.py:5809
 msgid "File load/save has been disabled"
-msgstr ""
+msgstr "Das Laden/Speichern von Dateien wurde deaktiviert"
 
 #: .././mainapp.py:4444
 msgid "Failed to save the Tartube config file (file already in use)"
 msgstr ""
+"Fehler beim Speichern der Tartube-Konfigurationsdatei (bereits verwendete "
+"Datei)"
 
 #: .././mainapp.py:4464
 msgid "Failed to save the Tartube config file"
-msgstr ""
+msgstr "Fehler beim Speichern der Tartube-Konfigurationsdatei"
 
 #: .././mainapp.py:4576 .././mainapp.py:4592 .././mainapp.py:4622
 msgid "Failed to load the Tartube database file"
-msgstr ""
+msgstr "Fehler beim Laden der Tartube-Datenbankdatei"
 
 #: .././mainapp.py:4637
 msgid "The Tartube database file is invalid"
-msgstr ""
+msgstr "Die Tartube-Datenbankdatei ist ungültig"
 
 #: .././mainapp.py:4653
 msgid "Database file can't be read by this version of Tartube"
 msgstr ""
+"Die Datenbankdatei kann von dieser Version von Tartube nicht gelesen werden"
 
 #: .././mainapp.py:4995
 msgid "Tartube is applying an essential database update"
-msgstr ""
+msgstr "Tartube wendet ein notwendiges Datenbank-Update an"
 
 #: .././mainapp.py:4997
 msgid "This might take a few minutes, so please be patient"
-msgstr ""
+msgstr "Dies kann einige Minuten dauern, so bitte haben Sie etwas Geduld"
 
 #: .././mainapp.py:5741 .././mainapp.py:5799 .././mainapp.py:5808
 msgid "Failed to save the Tartube database file"
-msgstr ""
+msgstr "Fehler beim Speichern der Tartube-Datenbankdatei"
 
 #: .././mainapp.py:5744
 msgid "(Could not make a backup copy of the existing file)"
-msgstr ""
+msgstr "(Sicherungskopie der vorhandenen Datei konnte nicht erstellt werden)"
 
 #: .././mainapp.py:5780
 msgid "Failed to save the Tartube database file (file already in use)"
 msgstr ""
+"Fehler beim Speichern der Tartube-Datenbankdatei (bereits verwendete Datei)"
 
 #: .././mainapp.py:5801
 msgid "A backup of the previous file can be found at:"
-msgstr ""
+msgstr "Eine Sicherungskopie der vorherigen Datei finden Sie unter:"
 
 #: .././mainapp.py:5982 .././mainapp.py:5992
 msgid "Database file created"
-msgstr ""
+msgstr "Datenbankdatei erstellt"
 
 #: .././mainapp.py:6380
 msgid "Tartube's database can't be checked while an operation is in progress"
 msgstr ""
+"Die Datenbank von Tartube kann nicht überprüft werden während eine Operation "
+"läuft"
 
 #: .././mainapp.py:6592
 msgid "Database check complete, no inconsistencies found"
-msgstr ""
+msgstr "Datenbankprüfung abgeschlossen, keine Inkonsistenzen gefunden"
 
 #: .././mainapp.py:6619
 msgid "Database check complete, problems found:"
-msgstr ""
+msgstr "Datenbankprüfung abgeschlossen, Probleme gefunden:"
 
 #: .././mainapp.py:6622
 msgid ""
 "Do you want to repair these problems? (The database will be fixed, but no "
 "files will be deleted)"
 msgstr ""
+"Möchten Sie diese Probleme beheben? (Die Datenbank wird repariert, aber es "
+"werden keine Dateien gelöscht)"
 
 #: .././mainapp.py:6767
 msgid "Database inconsistencies repaired"
-msgstr ""
+msgstr "Datenbankinkonsistenzen repariert"
 
 #: .././mainapp.py:7635 .././config.py:14670
 msgid "Please select Tartube's data folder"
-msgstr ""
+msgstr "Bitte wählen Sie den Datenordner von Tartube"
 
 #: .././mainapp.py:7909
 msgid ""
 "A download operation cannot start if one or more configuration windows are "
 "still open"
 msgstr ""
+"Ein Download-Vorgang kann nicht gestartet werden, wenn ein oder mehrere "
+"Konfigurationsfenster noch geöffnet sind"
 
 #: .././mainapp.py:7933 .././mainapp.py:7955
 #, python-brace-format
 msgid "You only have {0} / {1} Mb remaining on your device"
-msgstr ""
+msgstr "Sie haben nur noch {0} / {1} MB übrig auf Ihrem Gerät"
 
 #: .././mainapp.py:7958 .././mainapp.py:13433 .././mainapp.py:13549
 #: .././mainapp.py:13723 .././mainwin.py:17220
 msgid "Are you sure you want to continue?"
-msgstr ""
+msgstr "Bist du dir sicher, dass du weitermachen willst?"
 
 #: .././mainapp.py:8045
 msgid "There is nothing to check!"
-msgstr ""
+msgstr "Es gibt nichts zu überprüfen!"
 
 #: .././mainapp.py:8047
 msgid "There is nothing to download!"
-msgstr ""
+msgstr "Es gibt nichts zum Download!"
 
 #: .././mainapp.py:8270
 msgid "Download operation complete"
-msgstr ""
+msgstr "Download-Vorgang abgeschlossen"
 
 #: .././mainapp.py:8272
 msgid "Download operation halted"
-msgstr ""
+msgstr "Download-Vorgang gestoppt"
 
 #: .././mainapp.py:8276
 msgid "Videos downloaded:"
-msgstr ""
+msgstr "Heruntergeladene Videos:"
 
 #: .././mainapp.py:8277
 msgid "Videos checked:"
-msgstr ""
+msgstr "Videos überprüft:"
 
 #: .././mainapp.py:8280 .././mainapp.py:8881 .././mainapp.py:9334
 #: .././mainapp.py:9733
 msgid "Time taken:"
-msgstr ""
+msgstr "Zeit genommen:"
 
 #: .././mainapp.py:8385
 msgid ""
 "An update operation cannot start if one or more configuration windows are "
 "still open"
 msgstr ""
+"Ein Aktualisierungsvorgang kann nicht gestartet werden, wenn ein oder mehrere "
+"Konfigurationsfenster noch geöffnet sind"
 
 #: .././mainapp.py:8571
 msgid "Installation failed"
-msgstr ""
+msgstr "Installation fehlgeschlagen"
 
 #: .././mainapp.py:8573
 msgid "Installation complete"
-msgstr ""
+msgstr "Installation abgeschlossen"
 
 #: .././mainapp.py:8577
 msgid "Update operation failed"
-msgstr ""
+msgstr "Aktualisierungsvorgang fehlgeschlagen"
 
 #: .././mainapp.py:8579
 msgid "Update operation halted"
-msgstr ""
+msgstr "Aktualisierungsvorgang angehalten"
 
 #: .././mainapp.py:8581
 msgid "Update operation complete"
-msgstr ""
+msgstr "Aktualisierungsvorgang abgeschlossen"
 
 #: .././mainapp.py:8583
 msgid "version:"
-msgstr ""
+msgstr "Version:"
 
 #: .././mainapp.py:8587
 msgid "(unknown)"
-msgstr ""
+msgstr "(unbekannt)"
 
 #: .././mainapp.py:8674
 msgid ""
 "A refresh operation cannot start if one or more configuration windows are "
 "still open"
 msgstr ""
+"Ein Refresh Vorgang kann nicht gestartet werden, wenn ein oder mehrere "
+"Konfigurationsfenster noch geöffnet sind"
 
 #: .././mainapp.py:8687
 msgid ""
 "During a refresh operation, Tartube analyses its data folder, looking for "
 "videos that haven't yet been added to its database"
 msgstr ""
+"Während eines Refresh Vorgang, Tartube analysiert seinen Datenordner und sucht"
+" nach Videos, die noch nicht zu seiner Datenbank hinzugefügt wurden"
 
 #: .././mainapp.py:8691
 msgid ""
 "You only need to perform a refresh operation if you have manually copied "
 "videos into Tartube's data folder"
 msgstr ""
+"Sie müssen nur dann einen Refresh Vorgang ausführen, wenn Sie Videos manuell "
+"in den Datenordner von Tartube kopiert haben"
 
+#FINISH MARKER
 #: .././mainapp.py:8698
 msgid ""
 "Before starting a refresh operation, you should click the 'Check all' button "
